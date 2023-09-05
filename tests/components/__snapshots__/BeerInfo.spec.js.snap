@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BeerInfoCard > matches snapshot 1`] = `
+"<div class=\\"beer-card group flex flex-col max-h-64 sm:max-h-36\\">
+  <div class=\\"flex flex-row\\">
+    <div class=\\"card-image w-1/6\\"><img class=\\"mx-auto max-h-24\\" src=\\"\\" alt=\\"A sour, hopped saison with notes of bergamot, cucumber\\"></div>
+    <div class=\\"card-info w-5/6 flex flex-col\\">
+      <div class=\\"flex\\">
+        <h1 class=\\"beer-name sm:text-xl px-1 -ml-1 bg-green-200\\">Saison D'Ethan</h1><span title=\\"Contains Lactose\\" class=\\"icon-lactose my-auto mx-2 text-red-600\\" icon=\\"fas,cow\\"></span>
+      </div>
+      <h2 class=\\"text-md sm:my-auto\\">ABV: 7 | IBU: 65</h2>
+      <h3 class=\\"sm:text-lg italic\\">Great beer for writing tests</h3>
+      <!--v-if-->
+    </div>
+  </div>
+  <p class=\\"text-sm italic mx-auto invisible group-hover:visible text-gray-400\\">Click To Expand</p>
+</div>"
+`;

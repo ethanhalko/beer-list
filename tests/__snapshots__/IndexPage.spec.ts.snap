@@ -1,0 +1,110 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BeerList > matches snapshot 1`] = `
+"<div class=\\"flex flex-col mx-auto sm:w-1/2\\">
+  <h1 class=\\"mx-auto font-bold text-gray-800 text-5xl my-10 drop-shadow-sm\\">Our Beers</h1>
+  <h2 class=\\"mx-auto\\"><span class=\\"my-auto text-red-600\\" icon=\\"fas,cow\\"></span> = Contains Lactose </h2>
+  <h2 class=\\"mx-auto bg-green-300 p-1\\">Dry Hopped</h2>
+  <div>
+    <div class=\\"beer-card group flex flex-col max-h-64 sm:max-h-36\\">
+      <div class=\\"flex flex-row\\">
+        <div class=\\"card-image w-1/6\\"><img class=\\"mx-auto max-h-24\\" src=\\"https://images.punkapi.com/v2/keg.png\\" alt=\\"Japanese citrus fruit intensifies the sour nature of this German classic.\\"></div>
+        <div class=\\"card-info w-5/6 flex flex-col\\">
+          <div class=\\"flex\\">
+            <h1 class=\\"sm:text-xl px-1 -ml-1\\">Berliner Weisse With Yuzu - B-Sides</h1>
+            <!--v-if-->
+          </div>
+          <h2 class=\\"text-md sm:my-auto\\">ABV: 4.2 | IBU: 8</h2>
+          <h3 class=\\"sm:text-lg italic\\">Japanese Citrus Berliner Weisse.</h3>
+          <!--v-if-->
+        </div>
+      </div>
+      <p class=\\"text-sm italic mx-auto invisible group-hover:visible text-gray-400\\">Click To Expand</p>
+    </div>
+  </div>
+  <div>
+    <div class=\\"beer-card group flex flex-col max-h-64 sm:max-h-36\\">
+      <div class=\\"flex flex-row\\">
+        <div class=\\"card-image w-1/6\\"><img class=\\"mx-auto max-h-24\\" src=\\"https://images.punkapi.com/v2/8.png\\" alt=\\"Fake is the new black. Fake is where it is at. Fake Art, fake brands, fake breasts, and fake lager. We want to play our part in the ugly fallout from the Lager Dream. Say hello to Fake Lager – a zesty, floral 21st century faux masterpiece with added BrewDog bitterness.\\"></div>
+        <div class=\\"card-info w-5/6 flex flex-col\\">
+          <div class=\\"flex\\">
+            <h1 class=\\"sm:text-xl px-1 -ml-1\\">Fake Lager</h1>
+            <!--v-if-->
+          </div>
+          <h2 class=\\"text-md sm:my-auto\\">ABV: 4.7 | IBU: 40</h2>
+          <h3 class=\\"sm:text-lg italic\\">Bohemian Pilsner.</h3>
+          <!--v-if-->
+        </div>
+      </div>
+      <p class=\\"text-sm italic mx-auto invisible group-hover:visible text-gray-400\\">Click To Expand</p>
+    </div>
+  </div>
+  <div>
+    <div class=\\"beer-card group flex flex-col max-h-64 sm:max-h-36\\">
+      <div class=\\"flex flex-row\\">
+        <div class=\\"card-image w-1/6\\"><img class=\\"mx-auto max-h-24\\" src=\\"https://images.punkapi.com/v2/6.png\\" alt=\\"Re-brewed as a spring seasonal, this beer – which appeared originally as an Equity Punk shareholder creation – retains its trademark spicy, fruity edge. A perfect blend of Belgian Saison and US IPA, crushed peppercorns and heather honey are also added to produce a genuinely unique beer.\\"></div>
+        <div class=\\"card-info w-5/6 flex flex-col\\">
+          <div class=\\"flex\\">
+            <h1 class=\\"sm:text-xl px-1 -ml-1\\">Electric India</h1>
+            <!--v-if-->
+          </div>
+          <h2 class=\\"text-md sm:my-auto\\">ABV: 5.2 | IBU: 38</h2>
+          <h3 class=\\"sm:text-lg italic\\">Vibrant Hoppy Saison.</h3>
+          <!--v-if-->
+        </div>
+      </div>
+      <p class=\\"text-sm italic mx-auto invisible group-hover:visible text-gray-400\\">Click To Expand</p>
+    </div>
+  </div>
+  <div>
+    <div class=\\"beer-card group flex flex-col max-h-64 sm:max-h-36\\">
+      <div class=\\"flex flex-row\\">
+        <div class=\\"card-image w-1/6\\"><img class=\\"mx-auto max-h-24\\" src=\\"https://images.punkapi.com/v2/12.png\\" alt=\\"Running the knife-edge between an India Pale Ale and a Stout, this particular style is one we truly love. Black IPAs are a great showcase for the skill of our brew team, balancing so many complex and twisting flavours in the same moment. The citrus, mango and pine from the hops – three of our all-time favourites – play off against the roasty dryness from the malt bill at each and every turn.\\"></div>
+        <div class=\\"card-info w-5/6 flex flex-col\\">
+          <div class=\\"flex\\">
+            <h1 class=\\"sm:text-xl px-1 -ml-1 bg-green-200\\">Arcade Nation</h1>
+            <!--v-if-->
+          </div>
+          <h2 class=\\"text-md sm:my-auto\\">ABV: 5.3 | IBU: 60</h2>
+          <h3 class=\\"sm:text-lg italic\\">Seasonal Black IPA.</h3>
+          <!--v-if-->
+        </div>
+      </div>
+      <p class=\\"text-sm italic mx-auto invisible group-hover:visible text-gray-400\\">Click To Expand</p>
+    </div>
+  </div>
+  <div>
+    <div class=\\"beer-card group flex flex-col max-h-64 sm:max-h-36\\">
+      <div class=\\"flex flex-row\\">
+        <div class=\\"card-image w-1/6\\"><img class=\\"mx-auto max-h-24\\" src=\\"https://images.punkapi.com/v2/keg.png\\" alt=\\"The brainchild of our small batch brewer, George Woods. A dangerously drinkable milk sugar- infused Scotch Ale.\\"></div>
+        <div class=\\"card-info w-5/6 flex flex-col\\">
+          <div class=\\"flex\\">
+            <h1 class=\\"sm:text-xl px-1 -ml-1\\">Misspent Youth</h1><span title=\\"Contains Lactose\\" class=\\"my-auto mx-2 text-red-600\\" icon=\\"fas,cow\\"></span>
+          </div>
+          <h2 class=\\"text-md sm:my-auto\\">ABV: 7.3 | IBU: 30</h2>
+          <h3 class=\\"sm:text-lg italic\\">Milk & Honey Scotch Ale.</h3>
+          <!--v-if-->
+        </div>
+      </div>
+      <p class=\\"text-sm italic mx-auto invisible group-hover:visible text-gray-400\\">Click To Expand</p>
+    </div>
+  </div>
+  <div>
+    <div class=\\"beer-card group flex flex-col max-h-64 sm:max-h-36\\">
+      <div class=\\"flex flex-row\\">
+        <div class=\\"card-image w-1/6\\"><img class=\\"mx-auto max-h-24\\" src=\\"https://images.punkapi.com/v2/19.png\\" alt=\\"We sent this beer to Norway where it was known as 'Hello, my name is Censored’. You can make up your own mind as to why. This brew was a red berry explosion, with a reisnous bitter edge layered with dry berry tartness.\\"></div>
+        <div class=\\"card-info w-5/6 flex flex-col\\">
+          <div class=\\"flex\\">
+            <h1 class=\\"sm:text-xl px-1 -ml-1 bg-green-200\\">Hello My Name Is Mette-Marit</h1>
+            <!--v-if-->
+          </div>
+          <h2 class=\\"text-md sm:my-auto\\">ABV: 8.2 | IBU: 70</h2>
+          <h3 class=\\"sm:text-lg italic\\">Lingonberry Double IPA.</h3>
+          <!--v-if-->
+        </div>
+      </div>
+      <p class=\\"text-sm italic mx-auto invisible group-hover:visible text-gray-400\\">Click To Expand</p>
+    </div>
+  </div>
+</div>"
+`;
