@@ -19,11 +19,11 @@ const dryHopped = !!props.beer.ingredients.hops.find((hops) => hops.add?.toLower
       <div class="card-info w-5/6 flex flex-col">
         <div class="flex">
           <h1 class="beer-name sm:text-xl px-1 -ml-1" :class="{'bg-green-200': dryHopped}">{{ beer.name }}</h1>
-          <fas v-if="containsLactose" title="Contains Lactose" class="icon-lactose my-auto mx-2 text-red-600" :icon="['fas', 'cow']" />
+          <Icon v-if="containsLactose" name="fa6-solid:cow" class="icon-lactose my-auto text-middle mx-1 w-6 text-red-600"></Icon>
         </div>
         <h2 class="text-md sm:my-auto">ABV: {{ beer.abv }} | IBU: {{ beer.ibu }}</h2>
         <h3 class="sm:text-lg italic">{{ beer.tagline }}</h3>
-        <p v-if="readMore" class="sm:text-lg pt-4 mt-auto">{{ beer.description }}</p>
+        <p v-if="readMore" class="description sm:text-lg pt-4 mt-auto">{{ beer.description }}</p>
       </div>
     </div>
     <p v-if="!readMore" class="text-sm italic mx-auto invisible group-hover:visible text-gray-400">Click To Expand</p>

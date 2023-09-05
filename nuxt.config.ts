@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     '~/assets/css/app.css',
-    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
   postcss: {
     plugins: {
@@ -11,5 +10,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['nuxt-vitest']
+  modules: ['nuxt-vitest', 'nuxt-icon']
 });

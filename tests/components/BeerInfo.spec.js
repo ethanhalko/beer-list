@@ -82,4 +82,12 @@ describe('BeerInfoCard', async() => {
     const lactoseIcon = wrapper.find('.icon-lactose');
     expect(lactoseIcon.exists()).toBeTruthy();
   });
+
+  it('expands when clicked', async () => {
+    await wrapper.trigger('click');
+    expect(wrapper.find('.description').exists()).toBeTruthy();
+
+    await wrapper.trigger('click');
+    expect(wrapper.find('.description').exists()).toBeFalsy();
+  });
 });

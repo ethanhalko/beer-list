@@ -19,8 +19,8 @@ defineExpose({beerList});
 <template>
   <div class="flex flex-col mx-auto sm:w-1/2">
     <h1 class="mx-auto font-bold text-gray-800 text-5xl my-10 drop-shadow-sm">Our Beers</h1>
-    <h2 class="mx-auto">
-      <client-only><fas class="my-auto text-red-600" :icon="['fas', 'cow']" /></client-only>
+    <h2 class="mx-auto flex">
+      <Icon name="fa6-solid:cow" class="my-auto text-middle mx-1 w-6 text-red-600"></Icon>
       = Contains Lactose
     </h2>
     <h2 class="mx-auto bg-green-300 p-1">Dry Hopped</h2>
