@@ -10,11 +10,14 @@ const beerList = shallowRef();
 onBeforeMount(async () => {
   const data = await $fetch('https://api.punkapi.com/v2/beers?brewed_after=11-2012');
 
+  // Filter beers that use Centennial Hops
   beerList.value = data.filter((beer) => !beer.ingredients.hops.some((hop) => hop.name.toLowerCase() === EXCLUDE))
+    // Order by abv desc
     .sort((a, b) => a.abv - b.abv);
 });
 
-defineExpose({beerList});
+// Expose for testing purposes
+defineExpose({ beerList });
 </script>
 <template>
   <div class="flex flex-col mx-auto sm:w-1/2">

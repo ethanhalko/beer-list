@@ -2,8 +2,6 @@
   // https://nuxt.com/docs/guide/concepts/typescript
   "extends": "./.nuxt/tsconfig.json",
   "files": [
-    "./types/bnw.d.ts",
     "./.nuxt/types/components.d.ts"
   ],
-  "include": ["**/*.ts", "**/*.vue"]
 }

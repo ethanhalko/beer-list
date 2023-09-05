@@ -1,63 +1,27 @@
-# Nuxt 3 Minimal Starter
+# Wuzzals Sample App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## BrewDog Beer List
 
-## Setup
-
-Make sure to install the dependencies:
-
+### To Run: 
 ```bash
-# npm
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
 ```
 
-## Production
-
-Build the application for production:
-
+### Tests: 
 ```bash
-# npm
-npm run build
+# Run and generate snapshots
+npm run test:snapshots
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
+#run tests
+npm run test
 ```
 
-Locally preview production build:
+### To View: 
 
-```bash
-# npm
-npm run preview
+https://ethanhalko.github.io/beer-list/
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### Dev Notes:
+- Typescript is required for Nuxt 3 but wasn't used outside of setup and config files
+- Tailwind was used for time management purposes
