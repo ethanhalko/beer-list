@@ -9,21 +9,23 @@
     "postinstall": "nuxt prepare",
     "test": "vitest run",
     "test:snapshots": "vitest run -u",
-    "lint": "eslint --debug --ext .ts,.js,.vue ."
+    "lint": "eslint --debug --ext .ts,.js,.vue .",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.0",
-    "nuxt-icon": "^0.5.0",
-    "tailwindcss": "^3.3.3",
     "@testing-library/vue": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
     "eslint": "^8.48.0",
     "eslint-plugin-vitest": "^0.3.1",
     "eslint-plugin-vue": "^9.17.0",
+    "gh-pages": "^6.0.0",
     "happy-dom": "^10.11.2",
+    "nuxt": "^3.7.0",
+    "nuxt-icon": "^0.5.0",
     "nuxt-vitest": "^0.10.4",
+    "tailwindcss": "^3.3.3",
     "vitest": "^0.33.0"
   }
 }

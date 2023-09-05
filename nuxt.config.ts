@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    baseUrl: '/beer-list/',
+    buildAssetsDir: 'assets'
+  },
   devtools: { enabled: true },
   css: [
     '~/assets/css/app.css',
